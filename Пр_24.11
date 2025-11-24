@@ -1,0 +1,32 @@
+#1 x = 10
+while x <= 30:
+    if x % 2 != 0:
+        print(x ** 2)
+    x += 1
+    
+#2 x = int(input())
+a = 1
+max_a = 1
+y = x
+
+while x != 0:
+    x = int(input())
+    if x == y:
+        a += 1
+        if a > max_a:
+            max_a = a
+    else:
+        a = 1
+    y = x
+
+print(max_a)
+
+#3 y = 0
+x = int(input())
+
+while x != 0:
+    if x % 2 == 0:
+        y += 1
+    x = int(input())
+
+print(y)
