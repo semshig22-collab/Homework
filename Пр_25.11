@@ -1,0 +1,31 @@
+#7 x=0
+y=int(input())
+z=int(input())
+while z !=0:
+    if y < z:
+        x += 1 
+        y=z 
+    z=int(input())
+print(x)
+
+#8 x=int(input())
+y=int(input())
+a=int(input())
+while a !=0:
+  if a > x:
+    y=x
+    x=a
+  a=int(input())
+print(y)
+#9 o=0
+x=int(input())
+y=int(input())
+while y != 0:
+  if y > x:
+    o=0
+    x=y
+  else:
+    if y == x:
+      o += 1
+  y=int(input())
+print(o)
